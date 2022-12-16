@@ -1,5 +1,6 @@
 #ifndef BINARY_TREES_H
 #define BINARY_TREES_H
+#include <stddef.h>
 
 /**
  * struct binary_tree - A new type describing a binary tree.
@@ -7,7 +8,7 @@
  */
 struct binary_tree
 {
-	int value;
+	int n;
 	struct binary_tree* parent;
 	struct binary_tree* left;
 	struct binary_tree* right;
